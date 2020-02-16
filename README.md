@@ -29,3 +29,7 @@ Zbudowanie nowego pliku PDF (folder `_book`) odbywa się poprzez użycie ikonu K
 Więcej informacji można znaleźć pod adresem https://bookdown.org/yihui/bookdown/.
 
 <!--references info!!-->
+
+## Inne
+
+Szablon opiera się o rozwiązania stworzone przez [Roba Hyndmana](https://github.com/robjhyndman/MonashThesis).
