@@ -1,8 +1,11 @@
 ---
-title: 'Thesis title'
-degreetype: 'Doctor of Philosophy'
-author: 'Joe Bloggs'
-degrees: 'B.Sc. (Hons), University of Tangambalanga'
+title: "Mój tytuł"
+titleeng: "My title"
+degreetype: "Praca inżynierska"
+author: "Jakub Nowosad"
+major: "Geoinformacja"
+albumid: "000000"
+year: "2020"
 output: bookdown::pdf_book
 site: bookdown::bookdown_site
 link-citations: yes
