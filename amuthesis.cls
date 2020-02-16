@@ -1,3 +1,13 @@
+%% amuthesis Class for LaTeX2e.
+%% Version 0.8
+%% By Jakub Nowosad.
+%% 16 February 2020
+%%
+%% This class file is for students
+%% in the Institute of Geoecology and Geoinformation
+%% at Adam Mickiewicz University, Poznan, Poland.
+
+%% Adapted based on:
 %% monashthesis Class for LaTeX2e.
 %% Version 5.0
 %% By Rob J. Hyndman.
@@ -8,7 +18,7 @@
 %% at Monash University, Australia.
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{monashthesis}[2016/09/06 Monash Thesis Class]
+\ProvidesClass{amuthesis}[2020/02/16 AMU Thesis Class]
 
 %% FONT
 \usepackage[T1]{fontenc}
@@ -48,6 +58,7 @@
  {labelfont={bf},textfont={it},labelsep=colon}
 \captionsetup[figure]{style=italic,format=hang,singlelinecheck=true}
 \captionsetup[table]{style=italic,format=hang,singlelinecheck=true}
+
 
 %% HEADERS AND FOOTERS
 \RequirePackage{fancyhdr}
@@ -154,7 +165,7 @@
      breaklinks=true,
      bookmarksopen=true,
      bookmarksnumbered=true,
-     linkcolor=darkblue,
+     linkcolor=black,
      urlcolor=blue,
      citecolor=darkblue,
      colorlinks=true}
@@ -172,27 +183,48 @@
 %% \author, \title are defined in report; here are the rest of the
 %% front matter defining macros
 \def\degreetitle{Degree not specified}
+\def\albumid{No id}
 \def\submitdate#1{\gdef\@submitdate{#1}}
+\def\titleeng#1{\gdef\@titleeng{#1}}
+%%\def\albumid#1{\gdef\@albumid{#1}}
 \def\degrees#1{\gdef\@degrees{#1}}
 \def\studentid#1{\gdef\@degrees{#1}}
 \def\@title{}\def\@author{}
 \def\authorname{\@author}
+\def\@titleeng{}
+\def\@thesisyear{}
+\def\@major{}
+%%\def\@albumid{}
 \def\@degrees{}
 \def\@submitdate{\number\the\year}
 
 \def\titlepage{{\sf
     \thispagestyle{empty}%
-    \null\vskip1cm%
-    \includegraphics[width=15cm]{figures/monash-logo}
+    % \null\vskip1cm%
+    \vspace*{-2cm}
+    \centerline{\includegraphics[width=19cm]{figures/uam-logo}}
+    \begin{center}
+    \textbf{Kierunek studiów: \major{}}\\
+    \textbf{Nr albumu: \albumid{}}
+    \end{center}
     \vfill
     \begin{center}
-        \Large\textbf{\expandafter{\@title}}\\
-        \@author\\
-        \@degrees
+        \textbf{\Large{\@author}}\\
+        \vspace{10mm}
+        \LARGE\textbf{\expandafter{\@title}}\\
+        \vspace{10mm}
+        \LARGE\textit{\expandafter{\titleeng{}}}
+    \end{center}
     \vfill
-        A thesis submitted for the degree of \degreetitle { } at\\
-        Monash University in \@submitdate\\
-        Department of Econometrics and Business Statistics
+    \begin{flushright}
+        \degreetitle{} napisana\\
+        w Instytucie Geoekologii i Geoinformacji\\
+        pod kierunkiem\\
+        dr. Jakuba Nowosada
+    \end{flushright}
+    \vfill
+    \begin{center}
+        Poznań, \thesisyear{}
     \end{center}
     %\hrulefill
     \newpage\mbox{}\thispagestyle{empty}\newpage}}
