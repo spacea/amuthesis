@@ -1,18 +1,29 @@
+% This is a LaTeX thesis template for Adam Mickiewicz University.
+% to be used with Rmarkdown
+% This template was produced by Jakub Nowosad
+% Version: 16 February 2020
+
+% Inspired by:
 % This is a LaTeX thesis template for Monash University.
 % to be used with Rmarkdown
 % This template was produced by Rob Hyndman
 % Version: 6 September 2016
 
-\documentclass{monashthesis}
-
+\documentclass{amuthesis}
+\usepackage{polski}
+\renewcommand{\figurename}{Rycina} % Redefine default figure caption %
+\renewcommand{\tablename}{Tabela} % Redefine default table caption %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Add any LaTeX packages and other preamble here if required
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \author{$author$}
 \title{$title$}
-\degrees{$degrees$}
+\def\titleeng{$titleeng$}
 \def\degreetitle{$degreetype$}
+\def\major{$major$}
+\def\albumid{$albumid$}
+\def\thesisyear{$year$}
 % Add subject and keywords below
 \hypersetup{
      %pdfsubject={The Subject},
@@ -31,12 +42,8 @@
 
 \titlepage
 
-{\setstretch{1.2}\sf\tighttoc\doublespacing}
-
 $body$
 
-\printbibliography[heading=bibintoc]
-
-
+\printbibliography[heading=bibintoc, title=Bibliografia]
 
 \end{document}
