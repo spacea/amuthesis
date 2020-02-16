@@ -1,19 +1,31 @@
-Monash PhD Thesis Rmarkdown Template
+Szablon pracy inżynierskiej i magisterskiej UAM
 ========================
 
-This repository provides a template for a Monash University PhD thesis using Rmarkdown with the bookdown package. It is designed for PhD students in the Department of Econometrics and Business Statistics, but can be modified for Masters degrees, other departments and other universities as required.
+To repozytorium zawiera szablon pracy inżynierskiej i magisterskiej UAM używając pakietów **RMarkdown** i **bookdown**.
+Zostało ono stworzone dla studentów Instytutu Geoekologii i Geoinformacji UAM.
 
-## Requirements
+## Wymagania
 
-To set up the software, you will need to install the `bookdown` package and its dependencies as follows:
+Działanie szablonu wymaga zainstalowania pakietu **bookdown**:
 
 ```r
 install.packages('bookdown')
 ```
 
-You will also need LaTeX installed. If you don't already have LaTeX, one convenient approach is to install it via R:
+Dodatkowo konieczne jest posiadanie LaTeXa.
+Najprostszą możliwością jego zainstalowania jest użycie pakietu **tinytex**:
 
 ```r
 install.packages('tinytex')
 tinytex::install_tinytex()
 ```
+
+## Używanie szablonu
+
+Pierwszym krokiem jest wypełnienie informacji w nagłówku pliku `index.Rmd`.
+Dalej możliwe jest pisanie tekstu używając języka RMarkdown w plikach o rozszerzeniu `.Rmd`.
+Wystąpienie i kolejność rozdziałów można ustalać w pliku `_bookdown.yml`.
+Zbudowanie nowego pliku PDF (folder `_book`) odbywa się poprzez użycie ikonu Knit w pliku `index.Rmd`.
+Więcej informacji można znaleźć pod adresem https://bookdown.org/yihui/bookdown/.
+
+<!--references info!!-->
