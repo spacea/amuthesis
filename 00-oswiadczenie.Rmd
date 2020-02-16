@@ -1,0 +1,37 @@
+---
+knit: "bookdown::render_book"
+---
+
+\newpage
+\setlength\parindent{24pt}
+
+\hfill Poznań, dnia ..........
+
+\begin{center}
+\large{\textbf{OŚWIADCZENIE}}
+\end{center}
+
+\indent Ja, niżej podpisany/a  student/ka Uniwersytetu im. Adama Mickiewicza w Poznaniu oświadczam, że przedkładaną pracę dyplomową napisałem/napisałam samodzielnie. Oznacza to, że przy pisaniu pracy, poza niezbędnymi konsultacjami, nie korzystałem/am z pomocy innych osób, a w szczególności nie zlecałem/am opracowania rozprawy lub jej części innym osobom, ani nie odpisywałem/am tej rozprawy lub jej części od innych osób. \newline
+\indent Oświadczam również, że egzemplarz pracy dyplomowej w wersji drukowanej jest całkowicie zgodny z egzemplarzem pracy dyplomowej w wersji elektronicznej. \newline
+\indent Jednocześnie przyjmuję do wiadomości, że przypisanie sobie, w pracy dyplomowej, autorstwa istotnego fragmentu lub innych elementów cudzego utworu lub ustalenia naukowego stanowi podstawę stwierdzenia nieważności postępowania administracyjnego w sprawie nadania tytułu zawodowego.
+
+[\hspace{0.6cm}]* - wyrażam zgodę na udostępnianie mojej pracy w czytelni Archiwum UAM
+
+[\hspace{0.6cm}]* - wyrażam zgodę na udostępnianie mojej pracy w zakresie koniecznym do ochrony mojego prawa do autorstwa lub praw osób trzecich
+
+\vspace{5mm}
+
+\begin{footnotesize}
+*Należy wpisać TAK w przypadku wyrażenia zgody na udostępnianie pracy w czytelni Archiwum UAM, NIE w przypadku braku zgody. Niewypełnienie pola oznacza brak zgody na udostępnianie pracy.
+\end{footnotesize}
+
+\vspace{20mm}
+
+
+\hfill.............................................. \newline
+\null\hfill\scriptsize{(czytelny podpis studenta)}
+
+
+\newpage
+
+
