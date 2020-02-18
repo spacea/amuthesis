@@ -9,14 +9,14 @@ Zostało ono stworzone dla studentów Instytutu Geoekologii i Geoinformacji UAM.
 Działanie szablonu wymaga zainstalowania pakietu **bookdown**:
 
 ```r
-install.packages('bookdown')
+install.packages("bookdown")
 ```
 
 Dodatkowo konieczne jest posiadanie LaTeXa.
 Najprostszą możliwością jego zainstalowania jest użycie pakietu **tinytex**:
 
 ```r
-install.packages('tinytex')
+install.packages("tinytex")
 tinytex::install_tinytex()
 ```
 
