@@ -1,14 +1,13 @@
----
-knit: "bookdown::render_book"
----
+## Streszczenie {-}
 
-# Streszczenie {-}
+Streszczenie powinno przedstawiać skrótowo główny problem pracy i jego rozwiązanie.
+Możliwa struktura streszczenia to: (1) 1-3 zdania wstępu do problemu (czym się zajmujemy, dlaczego jest to ważne, jakie są problemy/luki do wypełnienia), (2) 1 zdanie opisujące cel pracy, (3) 1-3 zdania przedstawiające użyte materiały (dane) i metody (techniki, narzędzia), (4) 1-3 zdania obrazujące główne wyniki pracy, (5) 1-2 zdania podsumowujące; możliwe jest też określenie dalszych kroków/planów.
 
 <!-- The abstract should outline the main approach and findings of the thesis and must not be more than 500 words. -->
 
-# Abstract {-}
+## Abstract {-}
 
-The abstract should outline the main approach and findings of the thesis and must not be more than 500 words.
+The abstract must be consistent with the above text.
 
 \newpage
 
