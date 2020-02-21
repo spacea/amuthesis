@@ -1,4 +1,4 @@
-book_filename: "thesis"
+book_filename: "imienazwisko"
 language:
   label:
     fig: "Rycina "
@@ -10,6 +10,11 @@ rmd_files: [
   "00-oswiadczenie.Rmd",
   "00-abstrakt.Rmd",
   "01-roz1.Rmd",
-  "02-roz2.Rmd"]
+  "02-roz2.Rmd",
+  "03-roz3.Rmd",
+  "04-roz4.Rmd",
+  "05-roz5.Rmd",
+  "06-roz6.Rmd"
+  ]
 delete_merged_file: TRUE
 
