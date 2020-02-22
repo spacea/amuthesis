@@ -1,2 +1,7 @@
-# Podsumowanie
+# Podsumowanie {#podsumowanie}
 
+Podsumowanie pracy jest w pewnym sensie znacznie rozbudowanym abstraktem. 
+Należy wyliczyć i opisać osiągnięcia uzyskane w pracy dyplomowej.
+Tutaj jednak (w przeciwieństwie do np. rozdziału \@ref(wprowadzenie)) należy przechodzić od szczegółu do ogółu - co zostało stworzone/określone, jak zostało to zrobione, jakie ma to konsekwencje, itd.
+
+Ten rozdział powinien też zawierać opis kwestii, których nie udało się rozwiązać w pracy dyplomowej (i dlaczego się nie udało) oraz pomysły na przyszłe ulepszenie uzyskanych wyników lub dalsze badania.
