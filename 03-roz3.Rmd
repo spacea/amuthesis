@@ -6,15 +6,32 @@ Należy wyjaśnić jakie dane zostały użyte, jakiego są one rodziaju, dla jak
 W tym rozdziale warto dodać ryciny i tabele przedstawiające użyte dane.
 
 Zwróć uwagę, że poniższe bloki kodu mają parametr `echo=FALSE`; oznacza to, że będą one niewidoczne w wynikowym pliku PDF.
+Każdy z bloków kodu musi mieć unikalną nazwę.
+Dodanie podpisu pod rycinę odbywa się używając parametru `fig.cap`.
+Następnie do tej ryciny można się odnieść używając operatora `\@ref()` wraz z prefiksem `fig:`.
+Przykładowo, odniesienie się do pierwszej ryciny wymaga wpisania `\@ref(fig:rycina1)` (Rycina \@ref(fig:rycina1)).
 
-```{r rycina1, eval=FALSE}
-# rycina
+```{r rycina1, echo=FALSE, fig.cap="Moja pierwsza rycina"}
+plot(1, 4)
 ```
 
-```{r rycina2, eval=FALSE}
-knitr::include_graphics("")
+Podobnie wygląda odnoszenie się do plików graficznych. 
+Tutaj wewnątrz bloku kodu należy użyć funkcji `knitr::include_graphics()` (Rycina \@ref(fig:rycina2)).
+
+```{r rycina2, echo=FALSE, fig.cap="Moja druga rycina", out.width=400}
+knitr::include_graphics("figures/rcookies.png")
 ```
 
-```{r tabela1, eval=FALSE}
-# tabela
+Odnoszenie się do tabel odbywa się poprzez operator `\@ref()` wraz z prefiksem `tab:`.
+Natomiast tworzenie podpisu nad tabelą ma miejsce wewnątrz funkcji `knitr::kable()`. 
+Dodatkowo możliwe jest użycie pakietu **kableExtra** [@R-kableExtra] do określenia szerokości kolumn (Tabela \@ref(tab:tabela1)).
+
+```{r tabela1, echo=FALSE}
+library(magrittr)
+df = data.frame(a = 1:5, b = letters[1:5])
+knitr::kable(df, 
+             caption = "Moja pierwsza tabela",
+             booktabs = TRUE) %>% 
+  kableExtra::column_spec(1, width = "2cm") %>% 
+  kableExtra::column_spec(2, width = "4cm")
 ```
