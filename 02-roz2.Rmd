@@ -1,27 +1,16 @@
----
-chapter: 2
-knit: "bookdown::render_book"
----
+# Przegląd literatury {#lit}
 
-# Literature Review {#ch:litreview}
+Ten rozdział zawiera wyjaśnienie kontekstu pracy.
 
-This chapter contains a summary of the context in which your research is set. 
+Pisząc ten rozdział proszę pomyśleć o osobach, które zupełnie nie znają opisywanej tematyki.
+Należy tutaj krok po kroku wyjaśnić podstawowe koncepcje, istotność problemu, wyniki poprzednich podobnych badań, itd.
+Ten rozdział obejmuje tylko kwestie, które już zostały wykonane przez inne osoby - nowe wyniki mają swoje miejsce w rozdziale \@ref(wyniki).
 
-Imagine you are writing for your fellow PhD students. Topics that are well-known to them do not have to be included here. But things that they may not know about should be included.
+Każda kwestia opisana w tym rozdziale powinna być cytowana.
+...[@lovelace_geocomputation_2019]
 
-Resist the temptation to discuss everything you've read in the last few years. And you are not writing a textbook either. This chapter is meant to provide the background necessary to understand the material in subsequent chapters. Stick to that.
+<!-- https://tex.stackexchange.com/questions/143/what-are-good-sites-to-find-citations-in-bibtex-format -->
 
-You will need to organize the literature review around themes, and within each theme provide a story explaining the development of ideas to date. In each theme, you should get to the point where your ideas will fit in. But leave your ideas to later chapters. This way it is clear what has been done beforehand, and what new contributions you are making to the research field.
+W przypadku, gdy cytowanie zostało poprawnie wpisane oraz istnieje w pliku `thesis.bib` to bibliografia powinna się automatycznie wygenerować na końcu pracy.
 
-All citations should be done using markdown notation as shown below. This way, your bibliography will be compiled automatically and correctly.
-
-
-## Exponential smoothing {#sec:expsmooth}
-
-Exponential smoothing was originally developed in the late 1950s [@Brown59;@Brown63;@Holt57;@Winters60]. Because of their computational simplicity and interpretability, they became widely used in practice.
-
-Empirical studies by @MH79 and @Metal82 found little difference in forecast accuracy between exponential smoothing and ARIMA models. This made the family of exponential smoothing procedures an attractive proposition [see @CKOS01].
-
-The methods were less popular in academic circles until  @OKS97 introduced a state space formulation of some of the methods, which was extended in @HKSG02 to cover the full range of exponential smoothing methods.
-
-
+W przypadku, gdy praca dyplomowa opisuje konkretny obszar to można po tym rozdziale stworzyć kolejny rozdział opisujący "obszar badań".
