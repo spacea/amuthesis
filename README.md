@@ -33,14 +33,10 @@ Więcej informacji można znaleźć pod adresem https://bookdown.org/yihui/bookd
 
 ## Porady
 
-<!--styl rmarkdown-->
-<!--one line per sentence-->
-<!--one line stop-->
-<!--crossreferences-->
-<!--figures-->
-<!--tables-->
-<!--references info!!-->
-<!--package references-->
+Każde zdanie napisane w plikach `.Rmd` powinno zaczynać się od nowej linii. 
+Dzięki temu możliwa jest łatwiejsza kontrola wersji (porównywanie zmian). 
+
+Rozpoczęcie nowego paragrafu polega na stworzeniu jednej linii przerwy.
 
 ## Podziękowania
 
