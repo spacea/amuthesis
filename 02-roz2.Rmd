@@ -14,3 +14,12 @@ Każda kwestia opisana w tym rozdziale powinna być cytowana.
 W przypadku, gdy cytowanie zostało poprawnie wpisane oraz istnieje w pliku `thesis.bib` to bibliografia powinna się automatycznie wygenerować na końcu pracy.
 
 W przypadku, gdy praca dyplomowa opisuje konkretny obszar to można po tym rozdziale stworzyć kolejny rozdział opisujący "obszar badań".
+
+Ten i kolejne rozdziału moją mieć także podrozdziały.
+Tworzenie podrozdziałów polega na stworzeniu nowej lini rozpoczynającej się od znaków `##` a następnie tytułu podrozdziału.
+Dodatkowo w postaci `{#}` można dodać skrót nazwy rozdziału/podrozdziału umożliwiający odnoszenie się do niego używając operatora `\@ref()`.
+
+## Podrozdział {#podr}
+
+Przykładowo, "te kwestie zostały opisane w podrozdziale \@ref(podr)".
+Zwróć uwagę, że w ten sposób automatycznie tworzony jest odnośnik w pliku PDF.
