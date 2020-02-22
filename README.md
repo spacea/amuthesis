@@ -25,12 +25,22 @@ tinytex::install_tinytex()
 Pierwszym krokiem jest wypełnienie informacji w nagłówku pliku `index.Rmd`.
 Dalej możliwe jest pisanie tekstu używając języka [RMarkdown](https://rmarkdown.rstudio.com/lesson-1.html) w plikach o rozszerzeniu `.Rmd`.
 Każdy rozdział pracy dyplomowej powinnien być tworzony w oddzielnym pliku `.Rmd`.
+W repozytorium znajduje się szereg plików `.Rmd` zawierających przykładowy opis treści rozdziałów pracy dyplomowej.
 Wystąpienie i kolejność rozdziałów można ustalać w pliku `_bookdown.yml`.
-W pliku  `_bookdown.yml` można też ustalić nazwę wynikowego pliku PDF (domyślnie jest to `imienazwisko.pdf`.
+W pliku  `_bookdown.yml` można też ustalić nazwę wynikowego pliku PDF (domyślnie jest to `imienazwisko.pdf`).
 Zbudowanie nowego pliku PDF (folder `_book`) odbywa się poprzez użycie ikonu Knit w pliku `index.Rmd`.
 Więcej informacji można znaleźć pod adresem https://bookdown.org/yihui/bookdown/.
 
+## Porady
+
+<!--styl rmarkdown-->
+<!--one line per sentence-->
+<!--one line stop-->
+<!--crossreferences-->
+<!--figures-->
+<!--tables-->
 <!--references info!!-->
+<!--package references-->
 
 ## Podziękowania
 
