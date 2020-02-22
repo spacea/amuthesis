@@ -1,1 +1,20 @@
-# Materiały
+# Materiały {#materialy}
+
+Celem tego rozdziału jest przedstawienie użytych w pracy danych.
+Należy wyjaśnić jakie dane zostały użyte, jakiego są one rodziaju, dla jakiego okresu zostały pobrane/stworzone, co one zawierają, etc.
+
+W tym rozdziale warto dodać ryciny i tabele przedstawiające użyte dane.
+
+Zwróć uwagę, że poniższe bloki kodu mają parametr `echo=FALSE`; oznacza to, że będą one niewidoczne w wynikowym pliku PDF.
+
+```{r rycina1, eval=FALSE}
+# rycina
+```
+
+```{r rycina2, eval=FALSE}
+knitr::include_graphics("")
+```
+
+```{r tabela1, eval=FALSE}
+# tabela
+```
