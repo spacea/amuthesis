@@ -7,8 +7,8 @@ Należy tutaj krok po kroku wyjaśnić podstawowe koncepcje, istotność problem
 Ten rozdział obejmuje tylko kwestie, które już zostały wykonane przez inne osoby - nowe wyniki mają swoje miejsce w rozdziale \@ref(wyniki).
 
 Każda kwestia opisana w tym rozdziale powinna być cytowana.
-...[@lovelace_geocomputation_2019]
-
+Dodatnie cytowania odbywa się poprzez uzupełnienie pliku `thesis.bib` zapisem w formacie BibTeX, a następnie dodanie nazwy referencji poprzedzonej znakiem `@`.
+Przykładowo, zacytowanie książki Geocomputation with R odbywa się poprzez [@lovelace_geocomputation_2019].
 <!-- https://tex.stackexchange.com/questions/143/what-are-good-sites-to-find-citations-in-bibtex-format -->
 
 W przypadku, gdy cytowanie zostało poprawnie wpisane oraz istnieje w pliku `thesis.bib` to bibliografia powinna się automatycznie wygenerować na końcu pracy.
