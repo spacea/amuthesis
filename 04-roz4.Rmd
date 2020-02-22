@@ -7,13 +7,13 @@ Każda użyta metoda i technologia powinna być zacytowana.
 W przypadku pakietów R, wystarczy wypełnić poniższy blok kodu (zwróć uwagę, że ten blok kodu ma parametr `echo=FALSE`; oznacza to, że będzie on niewidoczny w wynikowym pliku PDF)...
 
 ```{r pakiertbib, echo=FALSE, warning=FALSE}
-pakiety = c("base", "sf")
+pakiety = c("base", "kableExtra")
 
 knitr::write_bib(pakiety, "packages.bib", width = 60)
 ```
 
 ... a następnie zacytować pakiet używając znaku `@`, po którym podać nazwę pakietu rozpoczynającą się od prefiksu `R-`.
-Przykładowe cytowanie języka R bez nawiasu to @R-base, a pakietu **sf** w nawiasie to [@R-sf].
+Przykładowe cytowanie języka R bez nawiasu to @R-base, a pakietu **kableExtra** w nawiasie to [@R-kableExtra].
 Więcej przykładów cytowania można znaleźć na stronie https://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html#citations.
 
 W przypadkach, gdy cytowanie istnieje, ale nie jest pakietem R to należy dodać je do pliku `thesis.bib` i użyć powyższej składni ze znakiem `@`.
