@@ -6,3 +6,13 @@ Każdy z tych rozdziałów powinien mieć tytuł adekwatny do swojej treści.
 Rozdziały wynikowe powinny korzystać z wiedzy opisanej w poprzednich rozdziałach (Rozdziały \@ref(lit), \@ref(materialy), \@ref(metody)).
 W przypadku prac analitycznych, ich treść powinna przedstawiać kolejne etapy eksploracji i analizy danych.
 W przypadku prac technicznych, treść tych rozdziałów powinnna opisywać stworzone narzędzia, a następnie pokazywać ich zastosowanie/a.
+
+W przypadku prac technicznych warto pokazywać fragmenty napisanego rozwiązania lub jego wywołania używając bloków kodu.
+
+```{r}
+moja_funkcja = function(x){
+  cat(x, "rządzi!")
+}
+moja_funkcja("Autor tej pracy")
+```
+
