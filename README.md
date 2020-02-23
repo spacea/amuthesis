@@ -36,7 +36,7 @@ Więcej informacji można znaleźć pod adresem https://bookdown.org/yihui/bookd
 Każde zdanie napisane w plikach `.Rmd` powinno zaczynać się od nowej linii. 
 Dzięki temu możliwa jest łatwiejsza kontrola wersji (porównywanie zmian). 
 
-Rozpoczęcie nowego paragrafu polega na stworzeniu jednej linii przerwy.
+Rozpoczęcie nowego paragrafu polega na dodaniu jednej linii przerwy (jednej pustej linii).
 
 ## Podziękowania
 
