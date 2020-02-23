@@ -17,5 +17,5 @@ rmd_files: [
   "06-roz6.Rmd"
   ]
 delete_merged_file: TRUE
-new_session: yes
+#new_session: yes
 before_chapter_script: ["code/before_script.R"]
