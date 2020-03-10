@@ -1,6 +1,6 @@
 # Wprowadzenie {#wprowadzenie}
 
-Wprowadzenie powinno mieć charakter opisu od ogółu do szczegółu (np. 3-5 paragrafów).
+Wprowadzenie powinno mieć charakter opisu od ogółu do szczegółu (np. trzy-pięć paragrafów).
 Pierwszy paragraf powinien być najbardziej ogólny, a kolejne powinny przybliżać czytelnika do problemu.
 Przedostatni paragraf powinien określić jaki jest problem (są problemy), który praca ma rozwiązać i dlaczego jest to (są one) ważne.
 
