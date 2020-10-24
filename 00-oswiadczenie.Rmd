@@ -29,7 +29,7 @@ knit: "bookdown::render_book"
 
 
 \hfill.............................................. \newline
-\null\hfill\scriptsize{(czytelny podpis studenta)}
+\null\hfill\begin{scriptsize}(czytelny podpis studenta)\end{scriptsize}
 
 
 \newpage
