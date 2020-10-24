@@ -122,7 +122,7 @@
 
 %% BIBLIOGRAPHY
 \usepackage[style=authoryear-comp, backend=biber, natbib=true]{biblatex}
-\ExecuteBibliographyOptions{bibencoding=utf8,minnames=1,maxnames=3, maxbibnames=99,dashed=false,terseinits=true,giveninits=true,uniquename=false,uniquelist=false,doi=false, isbn=false,url=true,sortcites=false}
+\ExecuteBibliographyOptions{bibencoding=utf8,minnames=1,maxnames=1, maxbibnames=99,dashed=false,terseinits=true,giveninits=true,uniquename=false,uniquelist=false,doi=false, isbn=false,url=true,sortcites=false}
 
 \DeclareFieldFormat{url}{\url{#1}}
 \DeclareFieldFormat[article]{pages}{#1}
