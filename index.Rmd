@@ -10,5 +10,8 @@ output: bookdown::pdf_book
 site: bookdown::bookdown_site
 link-citations: yes
 knit: "bookdown::render_book"
+bibliography:
+  - thesis.bib
+  - packages.bib
 ---
 
