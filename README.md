@@ -3,6 +3,7 @@ Szablon pracy inżynierskiej i magisterskiej UAM
 
 To repozytorium zawiera szablon pracy inżynierskiej i magisterskiej UAM używając pakietów **RMarkdown** i **bookdown**.
 Zostało ono stworzone dla studentów Instytutu Geoekologii i Geoinformacji UAM.
+Przykład wynikowego PDFu można znaleźć [tutaj](https://raw.githubusercontent.com/spacea/amuthesis/master/_book/imienazwisko.pdf).
 
 ## Wymagania
 
