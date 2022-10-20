@@ -15,8 +15,8 @@ book:
   number-sections: true
   chapters:
     - index.qmd
-    - 00-oswiadczenie.qmd
-    - 00-abstrakt.qmd
+    #- 00-oswiadczenie.qmd
+    #- 00-abstrakt.qmd
     - 01-roz1.qmd
     - 02-roz2.qmd
     - 03-roz3.qmd
