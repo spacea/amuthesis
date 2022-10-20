@@ -63,14 +63,14 @@
 %% HEADERS AND FOOTERS
 \RequirePackage{fancyhdr}
 \pagestyle{fancy}
-\rfoot{\Large\sf\raisebox{-0.1cm}{\textbf{\thepage}}}
+% \rfoot{\Large\sf\raisebox{-0.1cm}{\textbf{\thepage}}}
 %\lhead{\textsf{\expandafter{\@title}}}
 \lhead{\textsf{\leftmark}}
 \rhead{}
-\cfoot{}
+% \cfoot{}
 \setlength{\headheight}{15pt}
 \renewcommand{\headrulewidth}{0.4pt}
-\renewcommand{\footrulewidth}{0.4pt}
+% \renewcommand{\footrulewidth}{0.4pt}
 \fancypagestyle{plain}{%
 \fancyhf{} % clear all header and footer fields
 \fancyfoot[C]{\sf\thepage} % except the center
@@ -220,7 +220,7 @@
         \degreetitle{} napisana\\
         w Instytucie Geoekologii i Geoinformacji\\
         pod kierunkiem\\
-        dr. Jakuba Nowosada
+        dr. hab. Jakuba Nowosada
     \end{flushright}
     \vfill
     \begin{center}

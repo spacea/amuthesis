@@ -1,7 +1,3 @@
----
-knit: "bookdown::render_book"
----
-
 \newpage
 \setlength\parindent{24pt}
 

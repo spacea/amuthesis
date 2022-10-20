@@ -1,14 +1,16 @@
-# Metody {#metody}
+# Metody {#sec-metody}
 
 Rozdział **Metody** zawiera opis użytych metod (np. statystycznych czy geostatystycznych) oraz technologii (np. pakiety R). 
 Opis każdej z metod czy technologi powinien być zwarty i zawierać tylko najważniejsze informacje z punktu widzenia pracy dyplomowej.
 
 Każda użyta metoda i technologia powinna być zacytowana.
-W przypadku pakietów R, wystarczy wypełnić poniższy blok kodu (zwróć uwagę, że ten blok kodu ma parametr `echo=FALSE`; oznacza to, że będzie on niewidoczny w wynikowym pliku PDF)...
+W przypadku pakietów R, wystarczy wypełnić poniższy blok kodu (zwróć uwagę, że ten blok kodu ma parametr `echo: false`; oznacza to, że będzie on niewidoczny w wynikowym pliku PDF)...
 
-```{r pakiertbib, echo=FALSE, warning=FALSE}
+```{r}
+#| label: pakietbib
+#| echo: false
+#| warning: false
 pakiety = c("base", "kableExtra")
-
 knitr::write_bib(pakiety, "packages.bib", width = 60)
 ```
 

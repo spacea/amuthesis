@@ -1,0 +1,40 @@
+project:
+  type: book
+  output-dir: docs
+
+title: "Mój tytuł"
+titleeng: "My title"
+degreetype: "Praca inżynierska"
+author: "Imię Nazwisko"
+major: "Geoinformacja"
+albumid: "000000"
+year: "2020"
+
+book:
+  output-file: "imienazwisko"
+  number-sections: true
+  chapters:
+    - index.qmd
+    - 00-oswiadczenie.qmd
+    - 00-abstrakt.qmd
+    - 01-roz1.qmd
+    - 02-roz2.qmd
+    - 03-roz3.qmd
+    - 04-roz4.qmd
+    - 05-roz5.qmd
+    - 06-roz6.qmd
+
+bibliography:
+  - thesis.bib
+  - packages.bib
+
+format:
+  pdf:
+    template: amuthesis.tex
+    keep-tex: true
+    pdf-engine: pdflatex
+    cite-method: biblatex
+    fig-height: 3.8
+    fig-width: 6.3
+    fig-asp: 0.618  # 1 / phi
+    fig-pos: 't'

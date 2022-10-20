@@ -1,10 +1,10 @@
-# Przegląd literatury {#lit}
+# Przegląd literatury {#sec-lit}
 
 Ten rozdział zawiera wyjaśnienie kontekstu pracy.
 
 Pisząc ten rozdział proszę pomyśleć o osobach, które zupełnie nie znają opisywanej tematyki.
 Należy tutaj krok po kroku wyjaśnić podstawowe koncepcje, istotność problemu, wyniki poprzednich podobnych badań, itd.
-Ten rozdział obejmuje tylko kwestie, które już zostały wykonane przez inne osoby - nowe wyniki mają swoje miejsce w rozdziale \@ref(wyniki).
+Ten rozdział obejmuje tylko kwestie, które już zostały wykonane przez inne osoby - nowe wyniki mają swoje miejsce w rozdziale [-@sec-wyniki].
 
 Każda kwestia opisana w tym rozdziale powinna być cytowana.
 Dodatnie cytowania odbywa się poprzez uzupełnienie pliku `thesis.bib` zapisem w formacie BibTeX, a następnie dodanie nazwy referencji poprzedzonej znakiem `@`.
@@ -16,10 +16,10 @@ W przypadku, gdy cytowanie zostało poprawnie wpisane oraz istnieje w pliku `the
 W przypadku, gdy praca dyplomowa opisuje konkretny obszar to można po tym rozdziale stworzyć kolejny rozdział opisujący "obszar badań".
 
 Ten i kolejne rozdziału moją mieć także podrozdziały.
-Tworzenie podrozdziałów polega na stworzeniu nowej lini rozpoczynającej się od znaków `##` a następnie tytułu podrozdziału.
-Dodatkowo w postaci `{#}` można dodać skrót nazwy rozdziału/podrozdziału umożliwiający odnoszenie się do niego używając operatora `\@ref()`.
+Tworzenie podrozdziałów polega na stworzeniu nowej linii rozpoczynającej się od znaków `##` a następnie tytułu podrozdziału.
+Dodatkowo w postaci `{#sec-}` można dodać skrót nazwy rozdziału/podrozdziału umożliwiający odnoszenie się do niego używając operatora `[-@sec]`.
 
-## Podrozdział {#podr}
+## Podrozdział {#sec-podr}
 
-Przykładowo, "te kwestie zostały opisane w podrozdziale \@ref(podr)".
+Przykładowo, "te kwestie zostały opisane w podrozdziale [-@sec-podr]".
 Zwróć uwagę, że w ten sposób automatycznie tworzony jest odnośnik w pliku PDF.

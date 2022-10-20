@@ -1,0 +1,46 @@
+# Materiały {#sec-materialy}
+
+Celem tego rozdziału jest przedstawienie użytych w pracy danych.
+Należy wyjaśnić jakie dane zostały użyte, jakiego są one rodzaju, dla jakiego okresu zostały pobrane/stworzone, co one zawierają, etc.
+
+W tym rozdziale warto dodać ryciny i tabele przedstawiające użyte dane.
+
+Zwróć uwagę, że poniższe bloki kodu mają parametr `#| echo: false`; oznacza to, że będą one niewidoczne w wynikowym pliku PDF.
+Każdy z bloków kodu musi mieć unikalną nazwę; w przypadku rycin powinna się ona rozpoczynać od prefiksu `fig-`.
+Dodanie podpisu pod rycinę odbywa się używając parametru `#| fig-cap:`.
+Następnie do tej ryciny można się odnieść używając operatora `[-@]`.
+Przykładowo, odniesienie się do pierwszej ryciny wymaga wpisania `[-@fig-rycina1]` (Rycina [-@fig-rycina1]).
+
+```{r}
+#| label: fig-rycina1
+#| echo: false
+#| fig-cap: "Moja pierwsza rycina"
+plot(1, 4)
+```
+
+Podobnie wygląda odnoszenie się do plików graficznych. 
+Tutaj wewnątrz bloku kodu należy użyć funkcji `knitr::include_graphics()` (Rycina [-@fig-rycina2]).
+Dodatkowo możliwa jest zmiana rozmiary obrazka używając parametrów takich jak `#| out-width:` i `#| out-height:`.
+
+```{r}
+#| label: fig-rycina2
+#| echo: false
+#| fig-cap: "Moja druga rycina"
+#| out-width: "100%"
+#| out-height: 300px
+knitr::include_graphics("figures/rcookies.png")
+```
+
+Odnoszenie się do tabel odbywa się poprzez operator `[-@]` wraz z prefiksem `tbl-`.
+Natomiast tworzenie podpisu nad tabelą ma miejsce używając parametru `#| tbl-cap:`. 
+Dodatkowo możliwe jest użycie pakietu **kableExtra** [@R-kableExtra] do określenia szerokości kolumn (Tabela [-@tbl-tabela1]).
+
+```{r tabela1, echo=FALSE}
+#| label: tbl-tabela1
+#| echo: false
+#| tbl-cap: "Moja pierwsza tabela"
+df = data.frame(a = 1:5, b = letters[1:5])
+knitr::kable(df, booktabs = TRUE) |> 
+  kableExtra::column_spec(1, width = "2cm") |>  
+  kableExtra::column_spec(2, width = "4cm")
+```
